@@ -283,9 +283,9 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+/* #bloc-1-hero h1 {
     font-size: 32px;
-}
+} */
 
 .navbar {
     margin-bottom: 0;
@@ -658,10 +658,6 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
-
 .hero-bloc-text-sub {
     font-size: 36px;
 }
@@ -676,19 +672,12 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
+
 
 .cta-hero {
     margin-top: 22px;
@@ -704,9 +693,14 @@ p {
     margin: auto auto auto auto;
 }
 
+h1 {
+    font-size: 40px;
+    /* font-family: "Open Sans"; */
+}
+
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 33px;
 }
 
 h3 {
@@ -718,6 +712,7 @@ h3 {
 
 p {
     font-size: 15px;
+    line-height: 22.5px; 
 }
 #citation-text {
     font-size: 16px;
