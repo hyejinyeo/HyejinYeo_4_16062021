@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/* .d-bloc a .icon-md, */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -140,7 +140,7 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+/* .d-bloc a:hover .icon-md, */
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -221,7 +221,7 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
+/* .l-bloc a .icon-md, */
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -239,7 +239,7 @@ a:hover {
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
+/* .l-bloc a:hover .icon-md, */
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 50px!important;
+    color: #303030;
 }
 
 .icon-lg {
@@ -714,6 +715,10 @@ p {
     font-size: 15px;
     line-height: 22.5px; 
 }
+.color-contrast {
+    color: #303030;
+}
+
 #citation-text {
     font-size: 16px;
     font-style: italic;
@@ -775,6 +780,10 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+}
+
+.bgc-atomic-tangerine-light {
+    background-color: #ffc89b;
 }
 
 .tc-white {
