@@ -512,11 +512,6 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
-
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -1032,9 +1027,7 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
-        padding: 5px;
-    }
+    
     .close-lightbox {
         display: inline-block;
     }
@@ -1061,4 +1054,54 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*Contact page*/
+#content-contact {
+    width: 100%;
+}
+.display-adj {
+    display: flex;
+    flex-direction: row;
+}
+article {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+aside {
+    width: 50%;
+    padding: 0 0 0 100px;
+    margin: 0;
+}
+/*Formulaire*/
+.form-group {
+    padding-bottom: 10px;
+}
+label {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+input, textarea {
+    padding: 10px 0 10px 5px;
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+input {
+    width: 100%;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.form-button {
+    width: 100%;
+    border: none;
+}
+.form-control {
+    border-color: rgba(0, 0, 0, .1);
+    box-shadow: none;
 }
