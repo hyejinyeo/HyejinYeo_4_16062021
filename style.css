@@ -1057,7 +1057,7 @@ h4 {
 }
 
 /*Contact page*/
-#content-contact {
+/* #content-contact {
     width: 100%;
 }
 .display-adj {
@@ -1073,9 +1073,9 @@ aside {
     width: 50%;
     padding: 0 0 0 100px;
     margin: 0;
-}
+} */
 /*Formulaire*/
-.form-group {
+/* .form-group {
     padding-bottom: 10px;
 }
 label {
@@ -1104,4 +1104,4 @@ textarea {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-}
+} */
