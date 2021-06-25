@@ -380,6 +380,14 @@ a:hover {
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
+    .nav > li {
+        font-size: 17px;
+        padding-left: 50px;
+    }
+    .nav > li > a:hover {
+       color: #F3976C!important;
+    }
+
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
