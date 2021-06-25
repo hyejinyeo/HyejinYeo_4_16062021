@@ -919,7 +919,6 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
     h3,
     h4,
     h5,
@@ -928,6 +927,9 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    h2 {
+        padding: 0 30px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -996,10 +998,6 @@ h4 {
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
-    }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
     }
     .bloc-xxl,
     .bloc-xl,
@@ -1072,4 +1070,32 @@ label {
 .contact-info > p {
     text-align: center;
     font-weight: bold;
+}
+
+/*Responsive*/
+@media (max-width: 307px) {
+    .navbar-brand img {
+        width: 180px;
+    }
+}
+@media (max-width: 400px) {
+    h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #bloc-7 {
+        padding: 0 20px;
+    }
+    
+}
+@media (max-width: 767px) {
+    #bloc-8 {
+        padding: 0 20px;
+    }
+}
+.footer-dis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
 }
