@@ -493,6 +493,9 @@ button {
     font-size: 50px!important;
     color: #303030;
 }
+.icon-md:hover {
+    color: #484848;
+}
 
 .icon-lg {
     font-size: 60px!important;
@@ -1060,52 +1063,13 @@ h4 {
     }
 }
 
-/*Contact page*/
-/* #content-contact {
-    width: 100%;
-}
-.display-adj {
-    display: flex;
-    flex-direction: row;
-}
-article {
-    width: 50%;
-    padding: 0;
-    margin: 0;
-}
-aside {
-    width: 50%;
-    padding: 0 0 0 100px;
-    margin: 0;
-} */
-/*Formulaire*/
-/* .form-group {
-    padding-bottom: 10px;
-}
 label {
     font-weight: bold;
-    font-size: 0.9em;
 }
-input, textarea {
-    padding: 10px 0 10px 5px;
-    margin: 5px 0;
-    font-size: 0.9em;
+.contact-info > img {
+    padding: 50px 0 70px 0;
 }
-input {
-    width: 100%;
-    border: solid 1px gray;
-    border-radius: 5px;
+.contact-info > p {
+    text-align: center;
+    font-weight: bold;
 }
-textarea {
-    width: 100%;
-    border: solid 1px gray;
-    border-radius: 5px;
-}
-.form-button {
-    width: 100%;
-    border: none;
-}
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-} */
