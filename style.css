@@ -1065,8 +1065,7 @@ h4 {
 }
 .txt-lg {
     font-size: 16px;
-    font-weight: 600;
-    text-shadow: 1px 1px 3px #303030;
+    color: #ffc89b!important;
 }
 
 label {
