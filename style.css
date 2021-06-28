@@ -288,12 +288,10 @@ a:hover {
 } */
 .logo-height {
     height: 40px;
-    width: auto;
 }
 
 .logo-width {
     width: 100;
-    height: auto;
 }
 .navbar {
     margin-bottom: 0;
@@ -774,7 +772,6 @@ h4 {
 
 .img-width {
     width: 100%;
-    height: auto;
 }
 
 .avatar {
