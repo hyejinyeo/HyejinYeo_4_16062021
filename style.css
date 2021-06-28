@@ -288,6 +288,7 @@ a:hover {
 } */
 .logo-height {
     height: 40px;
+    width: auto;
 }
 
 .logo-width {
@@ -773,6 +774,7 @@ h4 {
 
 .img-width {
     width: 100%;
+    height: 100%;
 }
 
 .avatar {
