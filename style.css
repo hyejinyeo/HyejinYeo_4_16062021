@@ -291,7 +291,8 @@ a:hover {
 }
 
 .logo-width {
-    width: 100;
+    width: 30%;
+    height: 30%;
 }
 .navbar {
     margin-bottom: 0;
