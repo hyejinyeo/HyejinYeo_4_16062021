@@ -664,7 +664,7 @@ h6,
 p,
 label,
 .btn,
-a {
+a, address {
     font-family: "helvetica";
     font-display: swap;
     font-weight: 400;
@@ -1079,9 +1079,15 @@ label {
 .contact-info > img {
     padding: 50px 0 70px 0;
 }
-.contact-info > p {
-    text-align: center;
+.contact-info > a {
+    font-family: "helvetica";
+    font-display: swap;
     font-weight: bold;
+    color: #575757!important;
+}
+
+.contact-info > address {
+    text-align: center;
 }
 
 /*Responsive*/
