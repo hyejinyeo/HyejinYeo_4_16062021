@@ -1088,8 +1088,11 @@ label {
 
 .contact-info > address {
     text-align: center;
+    font-size: 1.1em;
 }
-
+.contact-info > address > a:hover {
+    color: #F3976C!important;
+}
 /*Responsive*/
 @media (max-width: 307px) {
     .navbar-brand img {
@@ -1116,4 +1119,11 @@ label {
     flex-direction: row;
     justify-content: space-around;
     padding: 20px 0;
+}
+/*Focus*/
+a:focus {
+    outline: 2px solid #F3976C!important;
+}
+button:focus {
+    outline: 2px solid #F3976C!important;
 }
