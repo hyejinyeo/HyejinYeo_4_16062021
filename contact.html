@@ -93,50 +93,57 @@
 		</section>
 		<!-- bloc-6 END -->
 		<!-- bloc-7 -->
-		<div class="bloc bgc-white l-bloc bloc-responsive" id="bloc-7">
-			<div class="container bloc-lg">
-				<div class="row display-adj">
-					<div class="col-sm-6">
-						<form method="post" action="includes/form_1.php" id="form_1" novalidate>
-							<div class="form-group">
-								<label for="name">
-									Nom
-								</label>
-								<input id="name" name="name" class="form-control" type="text" required />
+		<section id="information-contact">
+			<h2>Contacter La Chouette Agence</h2>
+			<div class="bloc bgc-white l-bloc bloc-responsive" id="bloc-7">
+				<div class="container bloc-lg">
+					<div class="row display-adj">
+						<article class="col-sm-6">
+							<h3>Formulaire de contact</h3>
+							<form method="post" action="includes/form_1.php" id="form_1" novalidate>
+								<div class="form-group">
+									<label for="name">
+										Nom
+									</label>
+									<input id="name" name="name" class="form-control" type="text" required />
+								</div>
+								<div class="form-group">
+									<label for="email">
+										Adresse email
+									</label>
+									<input id="email" name="email" class="form-control" type="email" required />
+								</div>
+								<div class="form-group">
+									<label for="voie">
+										Comment nous avez-vous connu ?
+									</label>
+									<textarea id="voie" name="voie" class="form-control" rows="1" cols="50" required></textarea>
+								</div>
+								<div class="form-group">
+									<label for="message">
+										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+									</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</div> 
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine form-button" type="submit">
+									Envoyer
+								</button>
+							</form>
+						</article>
+						<aside class="aside-pad">
+							<h3>Le bureau</h3>
+							<div class="col-sm-6 contact-info">
+								<img src="img/logo.webp" title="Logo-circle" class="center-block image-resize-mode logo-width" alt="Logo de la chouette agence, entreprise web design à Lyon" />
+								<address>
+									<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br><br>
+									<a href="https://www.google.com/maps/place/2+Place+Sathonay,+69001+Lyon/@45.7695241,4.8279786,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eb020f3664e9:0x13e3d71752922c1f!8m2!3d45.7695241!4d4.8301673" target="_blank">2 place Sathonay 69001 Lyon</a><br><br>
+									Ouvert de 9h à 18h, du lundi au vendredi
+								</address>
 							</div>
-							<div class="form-group">
-								<label for="email">
-									Adresse email
-								</label>
-								<input id="email" name="email" class="form-control" type="email" required />
-							</div>
-							<div class="form-group">
-								<label for="voie">
-									Comment nous avez-vous connu ?
-								</label>
-								<textarea id="voie" name="voie" class="form-control" rows="1" cols="50" required></textarea>
-							</div>
-							<div class="form-group">
-								<label for="message">
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine form-button" type="submit">
-								Envoyer
-							</button>
-						</form>
-					</div>
-					<div class="col-sm-6 contact-info">
-						<img src="img/logo.webp" title="Logo-circle" class="center-block image-resize-mode logo-width" alt="Logo de la chouette agence, entreprise web design à Lyon" />
-						<address>
-							<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br><br>
-							<a href="https://www.google.com/maps/place/2+Place+Sathonay,+69001+Lyon/@45.7695241,4.8279786,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eb020f3664e9:0x13e3d71752922c1f!8m2!3d45.7695241!4d4.8301673" target="_blank">2 place Sathonay 69001 Lyon</a><br><br>
-							Ouvert de 9h à 18h, du lundi au vendredi
-						</address>
+						</aside>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-7 END -->
 		<!-- ScrollToTop Button -->
 		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
